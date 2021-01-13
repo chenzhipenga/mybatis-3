@@ -35,6 +35,7 @@ import org.apache.ibatis.type.TypeHandlerRegistry;
 
 /**
  * @author Clinton Begin
+ * BaseStatementHandler 是一个抽象类，封装了通用的处理逻辑及芳芳执行流程，具体方法的实现有子类完成，这里使用到了设计模式中的模板方法模式
  */
 public abstract class BaseStatementHandler implements StatementHandler {
 
